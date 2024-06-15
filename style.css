@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+.container{
+    
+    margin-top: 150px;
+   
+
+}
+.container h1{
+    text-align: center;
+}
+.row{
+    display: flex;
+}
+
+.col{
+    height: 62px;
+    width: 62px;
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 700;
+}
